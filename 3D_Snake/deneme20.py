@@ -552,23 +552,17 @@ def display_game_over():
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, char)
         
     glColor3f(1, 1, 1)
-    score_text = f"TULIN BABALIK KOPMAZ - 20120101376"
+    score_text = f"TULIN BABALIK KOPMAZ"
     glRasterPos2f(-0.85, -0.7)
     for char in score_text.encode():
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_10, char)
         
     glColor3f(1, 1, 1)
-    score_text = f"AYSENUR YORUR - 22120205384"
+    score_text = f"AYSENUR YORUR"
     glRasterPos2f(-0.85, -0.84)
     for char in score_text.encode():
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_10, char)
         
-    glColor3f(1, 1, 1)
-    score_text = f"KAAN OSMANOGLU - 21120205705"
-    glRasterPos2f(-0.85, -0.97)
-    for char in score_text.encode():
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_10, char)
-    
     glColor3f(1, 1, 1)
     glBegin(GL_QUADS)
     glVertex2f(button_pos[0], button_pos[1])
